@@ -20,13 +20,31 @@
 + Does the time remaining before the coupon expires affect the acceptance rate?
 
 
-## Coupon Type Distribution & Overall Acceptance Rate
+## Coupon Type Distribution
 
 <p>
   <img src="./images/coupon-distribution-based-on-types.png" alt="First Image" width="1000"/>
+</p>
+
+The graph represents the frequency of each coupon type distributed, with a percentage value that indicates the proportion of each kind in the overall distribution:
+
++ **Coffee House Coupons (31.5%)**: These are the most frequently distributed coupons, making up nearly one-third of all coupons. This suggests that coffee houses might be a popular venue for the customer base or that there's a strategic emphasis on promoting coffee house visits.
++ **Restaurant Coupons (<$20) (22.0%)**: Coupons for less expensive restaurants are the second most common. This could indicate a focus on appealing to price-sensitive customers or promoting more casual dining experiences.
++ **Carry Out & Take Away Coupons (18.9%)**: These represent a sizeable portion of the coupons. The convenience of these services may be particularly appealing to the target audience or represent a growing trend in food consumption.
++ **Bar Coupons (15.9%)**: These are less common than the above types. It could suggest a more niche market for bar visits or that bars are less frequent partners in coupon programs.
++ **Restaurant Coupons ($20-$50) (11.8%)**: The least common are coupons for more expensive dining experiences. This might reflect a higher cost to the business for such offers, a less frequent dining occasion, or a more targeted customer base for these types of restaurants.
+
+## Coupon Overall Acceptance Rate
+
+<p>
   <img src="./images/coupons-acceptance.png" alt="First Image" width="750"/>
 </p>
 
+The graph presents the proportion of coupons that have been accepted versus those that have been rejected.
+
++ A little more than half of the coupons issued are accepted (56.8%), while a significant proportion, nearly half, are rejected (43.2%).
++ The acceptance rate being greater than the rejection rate suggests that the coupons are fairly well-received. Still, the rejection rate is large enough to warrant a closer look at optimizing the offers or targeting strategy.
++ Since almost 43% of the coupons are not used, there may be an opportunity to better understand the drivers who have rejected them. This could involve looking at the type of coupons being rejected and the circumstances under which they were rejected.
 
 ## Acceptance Rate by Coupon Types
 
@@ -45,8 +63,10 @@
 + Coupons for high-end restaurants have a lower acceptance rate of 44.1% compared to a rejection rate of 55.9%. The higher cost associated with these restaurants might be a barrier for coupon usage.
 
 
-## Target Group:
+## Target Group
 The passengers in the car are Friends, the driver is not headed to an urgent destination, the weather is sunny, and the coupon expires in 24 hours.
+
+*Note: We arrive at the target group by reviewing the correlation matrix between the features using the heatmap [(refer notebook)](https://github.com/vijayarulmuthu/Will-a-Customer-Accept-the-Coupon/blob/main/notebook/practical-application-1.ipynb#feature-correlation).*
 
 
 ## Analysis based on the Target Group
